@@ -73,6 +73,12 @@ matching signature, and macOS checks Apple's notarization as well.
   orange, click it to sign in again.
 - When you use it from Claude or Codex, what the AI reads from Canvas goes to that AI
   service like anything else in the chat.
+- **Anonymous usage counts.** So I can see how many people use it each week, the app
+  sends at most one ping a day for each of these: you opened the app, you used Canvas or
+  Piazza from Claude or Codex, you finished setup. A ping holds a random install ID made on
+  your Mac, the event name, and the app version, macOS version and CPU type. Never your
+  name, email, courses, sessions or chats, and no IP addresses are stored. Turn it off
+  in the setup window (**Share anonymous usage counts**).
 
 ## Not affiliated
 
