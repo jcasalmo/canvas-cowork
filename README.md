@@ -8,10 +8,10 @@ and in Claude and Codex through MCP.
 </p>
 
 <p align="center">
-<a href="https://github.com/jcasalmo/canvas-cowork/releases/latest/download/Canvas-Cowork.dmg"><b>Download for Mac</b></a>
-&nbsp;·&nbsp;
-<a href="https://github.com/jcasalmo/canvas-cowork/releases">All releases</a>
+<a href="https://github.com/jcasalmo/canvas-cowork/releases/latest/download/Canvas-Cowork.dmg"><img src="docs/download-button.svg" width="300" alt="Download Canvas Cowork for Mac"></a>
 </p>
+
+<p align="center"><sub><a href="https://github.com/jcasalmo/canvas-cowork/releases">What's new and older versions</a></sub></p>
 
 ---
 
