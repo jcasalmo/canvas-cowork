@@ -52,7 +52,8 @@ You need:
    Return.
 
 **Next time:** click **Ask Claude** (or **Ask Codex**) in Canvas Cowork's sidebar. Chats
-started that way know about your classes; your other chats aren't affected.
+started that way know about your classes; your other chats aren't affected. For ideas,
+open **What Can I Ask?** in the sidebar.
 
 ## Updates
 
