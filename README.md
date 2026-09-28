@@ -17,14 +17,16 @@ and in Claude and Codex through MCP.
 
 ## What it does
 
-- **A Mac app for your classes.** Courses, what's due, grades, announcements, files, Piazza
-  and lecture recordings with searchable transcripts, in one window.
-- **Your classes in Claude and Codex.** Setup makes a School folder. Chats you start there
-  can look up assignments, due dates, syllabi and grading policies, Piazza posts and
-  what was said in lecture. Chats anywhere else are left alone.
-- **Drafts you review, never automatic submissions.** The AI can stage a draft of a
-  submission, discussion reply or comment. It waits in the app's Review tab until you
-  edit it and click Submit yourself. Graded quizzes can't be answered in any mode.
+- **Ask Claude or Codex about your classes.** What's due, your grades, syllabi and grading
+  policies, Piazza posts, and what was said in lecture, answered from your own Canvas.
+- **A Mac app for your classes.** Courses, assignments, announcements, files, Piazza and
+  lecture recordings in one window.
+- **Lecture transcripts, even before captions are out.** Lectures that don't have U-M
+  captions yet can be transcribed on your Mac with Whisper (Apple silicon Macs). Only the
+  audio is downloaded, and nothing is uploaded.
+- **Drafts you review, never automatic submissions.** The AI can draft a submission or
+  reply; it waits in the app's Review tab until you edit it and click Submit yourself.
+  Graded quizzes can't be answered.
 
 ## Who it's for
 
@@ -40,22 +42,17 @@ You need:
 - Google Chrome is recommended for the sign-in window. Without it, setup downloads
   Chromium.
 
-## Install
+## Get started
 
-1. [Download Canvas-Cowork.dmg](https://github.com/jcasalmo/canvas-cowork/releases/latest/download/Canvas-Cowork.dmg)
-   and drag **Canvas Cowork** into Applications.
-2. Open it. It's signed and notarized by Apple, so macOS only asks the usual
-   "downloaded from the internet" question.
-3. A setup window walks you through three steps:
-   1. **Install the MCP servers:** one click. Downloads Python and its packages
-      (about 250 MB) into `~/.local/share`.
-   2. **Make your School folder:** one click each for Claude and Codex, then **Open**.
-      The first time, Claude asks whether to trust the folder; click Trust.
-   3. **Sign in to U-M:** a browser window opens. Sign in with Weblogin and Duo once.
-      This covers Canvas, Piazza and lecture capture.
-4. In a chat in the School folder, ask something like *"what's due this week?"*
+1. **[Download Canvas Cowork](https://github.com/jcasalmo/canvas-cowork/releases/latest/download/Canvas-Cowork.dmg)**
+   and drag it into Applications.
+2. **Open Canvas Cowork.** It walks you through three quick steps: install the helpers,
+   sign in to U-M, and pick Claude or Codex.
+3. **Chat.** A new chat opens in your School folder with a first question typed in. Press
+   Return.
 
-Reopen setup any time from the **Canvas Cowork** menu → **Set Up MCP…**
+**Next time:** click **Ask Claude** (or **Ask Codex**) in Canvas Cowork's sidebar. Chats
+started that way know about your classes; your other chats aren't affected.
 
 ## Updates
 
