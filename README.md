@@ -3,7 +3,7 @@
 <h1 align="center">Canvas Cowork</h1>
 
 <p align="center">
-Your University of Michigan Canvas, Piazza and lecture recordings in one Mac app,<br>
+Your Canvas, Piazza and lecture recordings in one Mac app,<br>
 and in Claude and Codex through MCP.
 </p>
 
@@ -18,10 +18,11 @@ and in Claude and Codex through MCP.
 ## What it does
 
 - **Ask Claude or Codex about your classes.** What's due, your grades, syllabi and grading
-  policies, Piazza posts, and what was said in lecture, answered from your own Canvas.
+  policies, Piazza posts, and (at U-M) what was said in lecture, answered from your own
+  Canvas.
 - **A Mac app for your classes.** Courses, assignments, announcements, files, Piazza and
   lecture recordings in one window.
-- **Lecture transcripts, even before captions are out.** Lectures that don't have U-M
+- **Lecture transcripts, even before captions are out (U-M).** Lectures that don't have
   captions yet can be transcribed on your Mac with Whisper (Apple silicon Macs). Only the
   audio is downloaded, and nothing is uploaded.
 - **Drafts you review, never automatic submissions.** The AI can draft a submission or
@@ -30,9 +31,15 @@ and in Claude and Codex through MCP.
 
 ## Who it's for
 
-U-M students. It signs in through U-M Weblogin and reads U-M Canvas
-(`umich.instructure.com`), Piazza courses linked from Canvas, and CAEN Lecture Capture
-(mostly College of Engineering courses). It won't work with other schools.
+Students at schools that use Canvas. Setup asks which school:
+
+- **University of Michigan:** Canvas, Piazza, and CAEN Lecture Capture recordings
+  (mostly College of Engineering courses), through U-M Weblogin.
+- **Cal Poly San Luis Obispo:** Canvas and Piazza, through the Cal Poly sign-in.
+- **Another school:** enter your Canvas address. Canvas and Piazza work wherever you
+  sign in to Canvas through your school's own login page.
+
+Lecture recordings and transcripts are U-M only.
 
 You need:
 
@@ -46,8 +53,8 @@ You need:
 
 1. **[Download Canvas Cowork](https://github.com/jcasalmo/canvas-cowork/releases/latest/download/Canvas-Cowork.dmg)**
    and drag it into Applications.
-2. **Open Canvas Cowork.** It walks you through three quick steps: install the helpers,
-   sign in to U-M, and pick Claude or Codex.
+2. **Open Canvas Cowork.** It walks you through a few quick steps: pick your school,
+   install the helpers, sign in, and pick Claude or Codex.
 3. **Chat.** A new chat opens in your School folder with a first question typed in. Press
    Return.
 
@@ -64,7 +71,7 @@ matching signature, and macOS checks Apple's notarization as well.
 
 ## Privacy
 
-- Everything runs on your Mac. Your U-M sessions are stored in
+- Everything runs on your Mac. Your school sessions are stored in
   `~/.local/share/canvas-mcp/.env` and `~/.local/share/piazza-mcp/.env`, readable only by
   your account. Don't share those files.
 - Sessions expire now and then. When the dot at the bottom left of the app's sidebar turns
@@ -75,5 +82,5 @@ matching signature, and macOS checks Apple's notarization as well.
 ## Not affiliated
 
 An independent student project. Not made by or affiliated with the University of
-Michigan, Instructure (Canvas), Piazza, Anthropic or OpenAI. Follow each course's policy
+Michigan, Cal Poly, any other school, Instructure (Canvas), Piazza, Anthropic or OpenAI. Follow each course's policy
 on using AI.
