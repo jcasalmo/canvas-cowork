@@ -14,14 +14,9 @@ and in Claude, Codex, Cursor and VS Code through MCP.
 <p align="center"><sub><a href="https://github.com/jcasalmo/canvas-cowork/releases">What's new and older versions</a></sub></p>
 
 > [!WARNING]
-> **Use at your own risk.** Canvas Cowork is not approved by Instructure, Piazza, any lecture
-> recording service, or any school. Instructure's
-> [Canvas API Policy](https://www.instructure.com/policies/canvas-api-policy) prohibits
-> accessing Canvas "using model context protocol servers or other technologies not approved by
-> Instructure", and Piazza's and the lecture recording services' terms have similar limits.
-> Canvas Cowork signs in as you, so any consequences fall on your own account: Instructure or
-> your school could restrict your access. Check your school's IT policies before using it, and
-> follow each course's policy on using AI.
+> **Use at your own risk.** Canvas Cowork isn't approved by Instructure, Piazza, lecture
+> recording services or any school, and using it may go against their terms. It signs in as
+> you, so any consequences fall on your own account. Check your school's policies first.
 
 ---
 
