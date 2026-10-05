@@ -13,6 +13,16 @@ and in Claude, Codex, Cursor and VS Code through MCP.
 
 <p align="center"><sub><a href="https://github.com/jcasalmo/canvas-cowork/releases">What's new and older versions</a></sub></p>
 
+> [!WARNING]
+> **Use at your own risk.** Canvas Cowork is not approved by Instructure, Piazza, any lecture
+> recording service, or any school. Instructure's
+> [Canvas API Policy](https://www.instructure.com/policies/canvas-api-policy) prohibits
+> accessing Canvas "using model context protocol servers or other technologies not approved by
+> Instructure", and Piazza's and the lecture recording services' terms have similar limits.
+> Canvas Cowork signs in as you, so any consequences fall on your own account: Instructure or
+> your school could restrict your access. Check your school's IT policies before using it, and
+> follow each course's policy on using AI.
+
 ---
 
 ## What it does
@@ -84,5 +94,6 @@ matching signature, and macOS checks Apple's notarization as well.
 
 An independent student project. Not made by or affiliated with any school (including the
 University of Michigan, Cal Poly, Duke, Harvard and Santa Clara), Instructure (Canvas),
-Piazza, Anthropic, OpenAI, Anysphere (Cursor), Microsoft or GitHub. School pictures are
-original illustrations, not school logos or marks. Follow each course's policy on using AI.
+Piazza, Anthropic, OpenAI, Anysphere (Cursor), Microsoft or GitHub, and none of them has
+approved it (see the warning at the top). School pictures are original illustrations, not
+school logos or marks. Follow each course's policy on using AI.
